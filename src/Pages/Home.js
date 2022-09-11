@@ -13,7 +13,7 @@ const Home = () => {
               <b className="b-home">A Developer | Designer</b>
             </div>
             <div className="img">
-              <img className="img2" src="homee.jpg.png" alt="error" />
+              <img className="img2" src="samisami.png" alt="error" />
             </div>
           </div>
           <div className="spanspan">
