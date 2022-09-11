@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+.first-div{
+    background:rgb(240, 240, 240);
+    color: rgb(27, 27, 27);
+    width: 100%;
+    height: 80vh;
+}
+
+.home {
+   
+    display: flex;
+    height: 70vh;
+
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: xxx-large;
+
+  
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;    
+}
+
+.img2 {
+    width: 25vw;
+    padding-left: 22rem;
+    margin-bottom: 11rem ;
+}
+
+.b-home {
+    padding: 2rem 0rem;
+  
+}
+
+.name {
+    color: rgb(255, 25, 25);
+}
+
+.spanspan {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 200px;
+    font-size: medium;
+    font-weight: 400;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 160%;
+    word-spacing: 3px;
+    color: rgb(58, 52, 52);
+}
+.section2{
+    background: rgb(192, 192, 192);
+    padding: 3rem 3rem;
+    margin: 5rem 3rem;
+    height: 98vh;
+}
+.section2-b{
+
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+    border: 3px solid rgb(63, 60, 60);
+    
+}
+.section2-ul{
+    padding: 1rem 5rem;
+    list-style: none;
+    
+    
+}
+.section2-ul li{
+    list-style: none;
+    font-size: large;
+    font-weight: 500;
+    padding: 0.57rem 1rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+center{
+    margin-bottom: 1rem;
+    background: white;
+    padding: 0.75rem;
+    border: 1px solid black;
+  
+}
+center::first-line{
+    font-weight: 700;
+    font-size: x-large;
+    color: red;
+    font-style: oblique;
+}
+
+.skills-div{
+    background: rgb(248, 248, 248);
+    border: 1px solid black;
+   
+}
+.Html{
+    width: 50%;
+    height: 1%;
+    border-radius: 1px solid black;
+    display: flex;
+  justify-content: center;
+  background: rgb(86, 88, 85);
+  align-items: center;
+  color: white;
+  padding-right: 1rem;
+
+}
+.Css{
+    width: 45%;
+    height: 2%;
+    border-radius: 1px solid black;
+   
+    display: flex;
+    justify-content: center;
+    background: rgb(86, 88, 85);
+    align-items: center;
+    color: white;
+  padding-right: 1rem;
+}
+.Java-Script{
+    width: 55%;
+    height: 2%;
+    border-radius: 1px solid black;
+   
+    display: flex;
+    justify-content: center;
+    background: rgb(86, 88, 85);
+    align-items: center;
+    color: white;
+  padding-right: 1rem;
+}
+.React{
+    width: 60%;
+    height: 2%;
+    border-radius: 1px solid black;
+   
+    display: flex;
+    justify-content: center;
+    background: rgb(86, 88, 85);
+    align-items: center;
+    color: white;
+  padding-right: 1rem;
+}
+.Angular{
+    width: 63%;
+    height: 2%;
+    border-radius: 1px solid black;
+   
+    display: flex;
+    justify-content: center;
+    background: rgb(86, 88, 85);
+    align-items: center;
+    color: white;
+  padding-right: 1rem;
+}
+.Next-Js{
+    width: 64%;
+    height: 2%;
+    border-radius: 1px solid black;
+   
+    display: flex;
+    justify-content: center;
+    background: rgb(86, 88, 85);
+    align-items: center;
+    color: white;
+  padding-right: 1rem;
+}
+.MongoDB{
+    width: 68%;
+    height: 2%;
+    border-radius: 1px solid black;
+   
+    display: flex;
+    justify-content: center;
+    background: rgb(86, 88, 85);
+    align-items: center;
+    color: white;
+  padding-right: 1rem;
+}
+.Node-Js{
+    width: 58%;
+    height: 2%;
+    border-radius: 1px solid black;
+   
+    display: flex;
+    justify-content: center;
+    background: rgb(86, 88, 85);
+    align-items: center;
+    color: white;
+  padding-right: 1rem;
+}
+.section3{
+    height: 93vh;
+    background: rgb(202, 197, 197);
+}
+.section3-b{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    padding: 2rem;
+    background: rgb(241, 237, 237);
+    border: 1px solid black;
+    
+}
+.review-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.section3-div{
+    width: 30%;
+    height:11.40rem;
+    background: rgb(170, 165, 165);
+    border: 2px solid black;
+}
+.pic{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+ background: rgb(236, 232, 232);
+}
+.pic img{
+    border-radius: 60px;
+    height: 6rem;
+    width: 6rem;
+    
+}
+.pic span{
+    font-weight: bold;
+}
+@media screen and (max-width : 500px) {
+  .content{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: smaller;
+
+  }
+  .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;   
+    flex-wrap: wrap; 
+}
+
+.img2 {
+    width: 21vw;
+    padding-left: 16rem;
+    margin-bottom: 7rem;
+}
+.spanspan {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 52px;
+    font-size: x-small;
+    /* font-weight: 400; */
+    font-family: 'Noto Sans', sans-serif;
+    /* line-height: 110%; */
+    /* word-spacing: 3px; */
+    color: rgb(58, 52, 52);
+    margin-top: -17rem;
+}
+.first-div{
+    background:rgb(240, 240, 240);
+    color: rgb(27, 27, 27);
+    width: 100%;
+    height: 61vh;
+}
+.section2{
+    background: rgb(192, 192, 192);
+    padding: 0rem 0rem;
+    margin: 0rem 0rem;
+    height: 98vh;
+}
+.section2-b {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    border: 2px solid rgb(63, 60, 60);
+}
+.section2-ul {
+    padding: 1rem 0rem;
+    list-style: none;
+}
+.section2-ul li {
+    list-style: none;
+    font-size: smaller;
+    font-weight: 500;
+    padding: 0.57rem 1rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+.section3 {
+    height: 100vh;
+    background: rgb(202, 197, 197);
+}
+.section3-b {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    padding: 1rem;
+    background: rgb(241, 237, 237);
+    border: 1px solid black;
+}
+.review-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.section3-div {
+    width: 30%;
+    height: 17.4rem;
+    background: rgb(170, 165, 165);
+    border: 1px solid black;
+}
+}
+@media screen and (max-width : 700px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 38%;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: smaller;
+        margin-top: -13rem;
+    }
+    .img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30%;   
+      flex-wrap: wrap; 
+  }
+  
+  .img2 {
+    width: 30vw;
+    padding-left: 9rem;
+    margin-top: -13rem;
+    margin-bottom: 5rem;
+}
+.spanspan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 9px;
+    font-size: x-small;
+    /* font-weight: 400; */
+    font-family: 'Noto Sans', sans-serif;
+    /* line-height: 110%; */
+    /* word-spacing: 3px; */
+    color: rgb(58, 52, 52);
+    margin-top: -11rem;
+}
+  .first-div{
+      background:rgb(240, 240, 240);
+      color: rgb(27, 27, 27);
+      width: 100%;
+      height: 61vh;
+  }
+  .section2{
+      background: rgb(192, 192, 192);
+      padding: 0rem 0rem;
+      margin: 0rem 0rem;
+      height: 98vh;
+  }
+  .section2-b {
+      display: flex;
+      justify-content: center;
+      font-size: x-large;
+      border: 2px solid rgb(63, 60, 60);
+  }
+  .section2-ul {
+      padding: 1rem 0rem;
+      list-style: none;
+  }
+  .section2-ul li {
+      list-style: none;
+      font-size: smaller;
+      font-weight: 500;
+      padding: 0.57rem 1rem;
+      font-family: 'Noto Sans', sans-serif;
+  }
+  .section3 {
+      height: 100vh;
+      background: rgb(202, 197, 197);
+  }
+  .section3-b {
+      color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: larger;
+      padding: 1rem;
+      background: rgb(241, 237, 237);
+      border: 1px solid black;
+  }
+  .review-div {
+      display: flex;
+      justify-content: space-between;
+      margin: 1rem;
+  }
+  .section3-div {
+      width: 30%;
+      height: 17.4rem;
+      background: rgb(170, 165, 165);
+      border: 1px solid black;
+  }
+  }
+  @media screen and (max-width : 450px) {
+    .content{
+      display: flex;
+      flex-direction: column;
+      width: 38%;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Noto Sans', sans-serif;
+      font-size: smaller;
+  
+    }
+    .img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 20%;   
+      flex-wrap: wrap; 
+  }
+  
+  .img2 {
+    width: 30vw;
+    padding-left: 9rem;
+    margin-bottom: 5rem;
+}
+.spanspan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 9px;
+    font-size: x-small;
+    /* font-weight: 400; */
+    font-family: 'Noto Sans', sans-serif;
+    /* line-height: 110%; */
+    /* word-spacing: 3px; */
+    color: rgb(58, 52, 52);
+    margin-top: -13rem;
+}
+  .first-div{
+      background:rgb(240, 240, 240);
+      color: rgb(27, 27, 27);
+      width: 100%;
+      height: 61vh;
+  }
+  .section2 {
+    background: rgb(192, 192, 192);
+    padding: 0rem 0rem;
+    margin: -3rem 0rem;
+    height: 98vh;
+}
+  .section2-b {
+      display: flex;
+      justify-content: center;
+      font-size: x-large;
+      border: 2px solid rgb(63, 60, 60);
+  }
+  .section2-ul {
+      padding: 1rem 0rem;
+      list-style: none;
+  }
+  .section2-ul li {
+      list-style: none;
+      font-size: smaller;
+      font-weight: 500;
+      padding: 0.57rem 1rem;
+      font-family: 'Noto Sans', sans-serif;
+  }
+  .section3 {
+    height: 78vh;
+    background: rgb(202, 197, 197);
+}
+  .section3-b {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    padding: 1rem;
+    background: rgb(241, 237, 237);
+    border: 1px solid black;
+    margin-top: -20rem;
+}
+  .review-div {
+      display: flex;
+      justify-content: space-between;
+      margin: 1rem;
+  }
+  .section3-div {
+    width: 30%;
+    height: 19.4rem;
+    background: rgb(170, 165, 165);
+    border: 1px solid black;
+}
+  }
+  
+  

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+.section1{
+    height: 80vh;
+    background: rgb(236, 236, 236);
+}
+h1{
+    color: red;
+    padding: 1rem;
+    border: 4px solid black;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.S-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+}
+.S-content span{
+    margin-top: 2rem;
+}
+.S-content ul{
+    margin-top: 1rem;
+}
+.S-content ul li{
+    margin-top: 0.5rem;
+}
+.span3{
+    color: red;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    word-spacing: 0.2rem;
+}
+.S-section2{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(236, 236, 236);
+}
+h2{
+    color: red;
+    padding: 1rem;
+    border: 4px solid black;
+}
+.S-span1{
+    margin-top: 2rem;
+    font-size: x-large;
+    font-family: 'Noto Sans', sans-serif;;
+}
+.S-span2{
+     color: red;
+     margin-top: 2rem;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    word-spacing: 0.2rem;
+}
+@media screen and (max-width : 1200px) {
+    .app-h2{
+        margin-top: 6rem;
+    }
+    .section1{
+        font-size: smaller;
+    }
+.S-sections{
+    height: 215vh;
+}
+}
+@media screen and (max-width : 1000px) {
+    .app-h2{
+        margin-top: 6rem;
+    }
+    .section1{
+        font-size: smaller;
+    }
+.S-sections{
+    height: 215vh;
+}
+}
+@media screen and (max-width : 900px) {
+    .app-h2{
+        margin-top: 6rem;
+    }
+    .section1{
+        font-size: smaller;
+    }
+.S-sections{
+    height: 215vh;
+}
+}
+@media screen and (max-width : 700px) {
+        .app-h2{
+            margin-top: 8rem;
+        }
+        .section1{
+            font-size: small;
+        }
+    .S-sections{
+        height: 215vh;
+    }
+}
+@media screen and (max-width : 500px) {
+    .app-h2{
+        margin-top: 8rem;
+    }
+    .section1{
+        font-size: small;
+    }
+.S-sections{
+    height: 215vh;
+}
+}
+@media screen and (max-width : 300px) {
+    .app-h2{
+        margin-top: 15rem;
+    }
+    .section1{
+        font-size: x-small;
+    }
+.S-sections{
+    height: 265vh;
+}
+}
+@media screen and (max-width : 434px) {
+    .app-h2{
+        margin-top: 11rem;
+    }
+    .section1{
+        font-size: x-small;
+    }
+.S-sections{
+    height: 235vh;
+}
+}

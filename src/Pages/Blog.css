@@ -1,0 +1,40 @@
+.blog-section1{
+    background: rgb(255, 255, 255);
+    padding: 0rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.b-h2{
+    margin-top: 2rem;
+}
+.b-span{
+    padding-top: 3rem;
+}
+.b-img{
+    margin-top: 2rem;
+}
+@media screen and (max-width : 600px) {
+    .blog-section1{
+        background: rgb(255, 255, 255);
+        padding: 0rem 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .b-h2{
+        margin-top: 0.2rem;
+        font-size: smaller;
+    }
+    .b-img{
+        margin-top: 0.5rem;
+        width: 10rem;
+        
+    }
+    .b-span{
+        padding-top: 1rem;
+        font-size: small;
+    }
+    
+}
+
